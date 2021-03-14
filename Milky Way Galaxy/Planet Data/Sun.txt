@@ -1,19 +1,19 @@
 {
   "version": "1.5",
   "BASE_DATA": {
-    "radius": 5913450.0,
-    "gravity": 1500,
+    "radius": 34817000.0,
+    "gravity": 247.0,
     "timewarpHeight": 500000.0,
     "mapColor": {
-      "r": 0.9910344839,
-      "g": 0.502679353,
-      "b": 0.0095006,
+      "r": 1.0,
+      "g": 0.97,
+      "b": 0.785,
       "a": 1.0
     }
   },
   "ATMOSPHERE_PHYSICS_DATA": {
     "height": 300000.0,
-    "density": 0.025,
+    "density": 0.005,
     "curve": 13.0,
     "parachuteMultiplier": 1.0,
     "upperAtmosphere": 0.5
@@ -21,8 +21,8 @@
   "ATMOSPHERE_VISUALS_DATA": {
     "GRADIENT": {
       "positionZ": 40000,
-      "height": 13000000.0,
-      "texture": "AtmoProxima"
+      "height": 800000000.0,
+      "texture": "Atmo_Sun"
     },
     "CLOUDS": {
       "texture": "None",
@@ -38,11 +38,11 @@
   },
     "ORBIT_DATA": {
     "parent": "Saggitarius",
-    "semiMajorAxis": 88930000000000.0,
+    "semiMajorAxis": 60650000000000,
     "eccentricity": 0.0,
     "argumentOfPeriapsis": 0.0,
-    "multiplierSOI": 0.8,
-    "orbitLineResolution": 1
+    "multiplierSOI": 0.4,
+    "orbitLineResolution": 0
   },
   "ACHIEVEMENT_DATA": {
     "Landed": false,

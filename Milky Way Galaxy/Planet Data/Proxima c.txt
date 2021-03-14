@@ -2,30 +2,55 @@
   "version": "1.5",
   "BASE_DATA": {
     "radius": 900000.0,
-    "gravity": 10,
-    "timewarpHeight": 2500.0,
+    "gravity": 8.39,
+    "timewarpHeight": 50000.0,
     "mapColor": {
-      "r": 0.410344839,
-      "g": 0.372679353,
-      "b": 0.3495006,
+      "r": 0.73,
+      "g": 0.91,
+      "b": 0.95,
       "a": 1.0
+    }
+  },
+   "ATMOSPHERE_PHYSICS_DATA": {
+    "height": 100000.0,
+    "density": 0.02,
+    "curve": 15.0,
+    "parachuteMultiplier": 3.0,
+    "upperAtmosphere": 0.3
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 40000,
+      "height": 90000.0,
+      "texture": "Uranus_Atmo"
+    },
+    "CLOUDS": {
+      "texture": "Earth_Clouds",
+      "startHeight": 0.0,
+      "width": 1200000.0,
+      "height": 950000.0,
+      "alpha": 0.65,
+      "velocity": 0.0
+    },
+    "FOG": {
+      "keys": []
     }
   },
   "TERRAIN_DATA": {
     "TERRAIN_TEXTURE_DATA": {
-      "planetTexture": "Mercury",
+      "planetTexture": "ProximaC",
       "planetTextureCutout": 0.945,
-      "surfaceTexture_A": "Dark_Dust",
+      "surfaceTexture_A": "Ice",
       "surfaceTextureSize_A": {
         "x": 20.0,
         "y": 8.0
       },
-      "surfaceTexture_B": "Hard_Rocks",
+      "surfaceTexture_B": "Ice",
       "surfaceTextureSize_B": {
         "x": 30.0,
         "y": 14.0
       },
-      "terrainTexture_C": "Soft_Rocks",
+      "terrainTexture_C": "Blured",
       "terrainTextureSize_C": {
         "x": 280.0,
         "y": 145.0
@@ -36,12 +61,7 @@
       "shadowIntensity": 13.0,
       "shadowHeight": 10.0
     },
-    "terrainFormula": [
-      "OUTPUT = AddHeightMap(Craters,75398.223686155, 350)",
-      "OUTPUT = AddHeightMap(Craters,15079.644737231, 100)",
-      "OUTPUT = AddHeightMap(Craters,2356.19449019234, 12)",
-      "OUTPUT = AddHeightMap( Perlin,2513.27412287183, 3)"
-    ],
+    "terrainFormula": [],
     "textureFormula": [
       "OUTPUT = AddHeightMap(Perlin,15079.644737231, 1, Curve8)",
       "OUTPUT = ApplyCurve(Curve8)",
@@ -52,16 +72,16 @@
   "ORBIT_DATA": {
     "parent": "Proxima Centauri",
     "semiMajorAxis": 11135000000.0,
-    "eccentricity": 0.0,
-    "argumentOfPeriapsis": 310.0,
-    "multiplierSOI": 1,
+    "eccentricity": 0.04,
+    "argumentOfPeriapsis": 331.0,
+    "multiplierSOI": 0.9,
     "orbitLineResolution": 100
   },
   "ACHIEVEMENT_DATA": {
-    "Landed": true,
-    "Takeoff": true,
+    "Landed": false,
+    "Takeoff": false,
     "Atmosphere": true,
     "Orbit": true,
-    "Crash": true
+    "Crash": false
   }
 }

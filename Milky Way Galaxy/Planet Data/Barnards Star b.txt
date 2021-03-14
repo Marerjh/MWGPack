@@ -60,7 +60,7 @@
   "ACHIEVEMENT_DATA": {
     "Landed": true,
     "Takeoff": true,
-    "Atmosphere": true,
+    "Atmosphere": false,
     "Orbit": true,
     "Crash": true
   }

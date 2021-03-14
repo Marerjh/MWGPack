@@ -1,0 +1,73 @@
+{
+  "version": "1.5",
+  "BASE_DATA": {
+    "radius": 5364000.0,
+    "gravity": 1700,
+    "timewarpHeight": 500000.0,
+    "mapColor": {
+      "r": 1.0,
+      "g": 0.50,
+      "b": 0,
+      "a": 1.0
+    }
+  },
+  "ATMOSPHERE_VISUALS_DATA": {
+    "GRADIENT": {
+      "positionZ": 40000,
+      "height": 11000000.0,
+      "texture": "AtmoProxima"
+    },
+    "CLOUDS": {
+      "texture": "None",
+      "startHeight": 0.0,
+      "width": 0.0,
+      "height": 0.0,
+      "alpha": 0.0,
+      "velocity": 0.0
+    },
+    "FOG": {
+      "keys": []
+    }
+  },
+   "POST_PROCESSING": {
+    "keys": [
+      {
+        "height": 0.0,
+        "shadowIntensity": 1.35,
+        "starIntensity": 0.0,
+        "hueShift": 0.0,
+        "saturation": 0.95,
+        "contrast": 1.2,
+        "red": 0.7,
+        "green": 0.505,
+        "blue": 0.286
+      },
+      {
+        "height": 700000000.0,
+        "shadowIntensity": 1.7,
+        "starIntensity": 1.0,
+        "hueShift": 0.0,
+        "saturation": 0.75,
+        "contrast": 1,
+        "red": 1.15,
+        "green": 1.1,
+        "blue": 1.05
+      }
+    ]
+  },
+    "ORBIT_DATA": {
+    "parent": "Alpha Centauri A",
+    "semiMajorAxis": 647000000000,
+    "eccentricity": 0.0,
+    "argumentOfPeriapsis": 0.0,
+    "multiplierSOI": 0.4,
+    "orbitLineResolution": 1
+  },
+  "ACHIEVEMENT_DATA": {
+    "Landed": false,
+    "Takeoff": false,
+    "Atmosphere": true,
+    "Orbit": true,
+    "Crash": false
+  }
+}

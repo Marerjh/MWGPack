@@ -1,5 +1,5 @@
 ///////////////////////////////
-//        v. 1.0.0           //
+//        v. 1.1.0           //
 //                           //
 //       GALAXY PACK         //
 // SPACEFLIGHT SIMULATOR 1.5 //
@@ -8,7 +8,7 @@
 ///////////////////////////////
 
 CREDITS:
-Data — Wikipedia
+Data — Wikipedia, exoplanet.eu
 Planets original images — Google, Wikipedia, NASA
 Saturn rings texture — Google
 
@@ -20,6 +20,8 @@ Marerjh — Marerjh
 Special thank to guy from whom i stole day-night cycle realisation
 
 Special special SPECIAL thank to YouTubers who uses my pack in their videos
+
+Special special special SPECIAL thank to guys who share and recommend pack to other people
 
 P.S.
 Also try AstroM's "Go Beyond" pack!!!

@@ -1,5 +1,5 @@
 ///////////////////////////////
-//        v. 1.0.0           //
+//        v. 1.1.0           //
 //                           //
 //       GALAXY PACK         //
 // SPACEFLIGHT SIMULATOR 1.5 //
@@ -9,6 +9,18 @@
 
 
 CHANGELOG:
+(v. 1.1.0)
+14 March 2021
++ Added Alpha Centauri A, Alpha Centauri B
++ Added Alpha Centauri Ab (Candidat 1) planet, orbiting Alpha Centauri A
+= Proxima C is Uranus-like Ice Giant now 
+= More precise definition of Proxima C mass
+= New textures for Alpha Centauri ABC system's planets
+= Improved daynight-cycle
+= Vanilla-look stars textures
+= Other small changes and improvements
+
+= Proteus/Nereid will not cause errors anymore (?)
 
 (v. 1.0.0)
 7 March 2021

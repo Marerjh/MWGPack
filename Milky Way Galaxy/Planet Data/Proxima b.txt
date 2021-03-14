@@ -13,8 +13,8 @@
   },
   "TERRAIN_DATA": {
     "TERRAIN_TEXTURE_DATA": {
-      "planetTexture": "Mercury",
-      "planetTextureCutout": 0.945,
+      "planetTexture": "ProximaB",
+      "planetTextureCutout": 1,
       "surfaceTexture_A": "Dark_Dust",
       "surfaceTextureSize_A": {
         "x": 20.0,
@@ -54,13 +54,13 @@
     "semiMajorAxis": 362774800.0,
     "eccentricity": 0.112,
     "argumentOfPeriapsis": 310.0,
-    "multiplierSOI": 1,
+    "multiplierSOI": 2,
     "orbitLineResolution": 100
   },
   "ACHIEVEMENT_DATA": {
     "Landed": true,
     "Takeoff": true,
-    "Atmosphere": true,
+    "Atmosphere": false,
     "Orbit": true,
     "Crash": true
   }
